@@ -1,0 +1,83 @@
+.resume {
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #DFDCDF;
+    width: 80%;
+    min-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+}
+.title-main {
+    text-align: center;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #000;
+}
+.name-info {
+    display: flex;
+    margin: 40px 0 10px;
+}
+.name {
+    margin-right: 20px;
+}
+.name,
+.surname {
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #000;
+}
+.lists {
+    display: flex;
+    justify-content: space-around;
+}
+.position {
+    font-weight: 500;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.phone,
+.email {
+    font-weight: 500;
+    padding-left: 10px;
+    margin: 10px 0 0;
+}
+.email {
+    margin: 0 0 20px;
+}
+.title {
+    font-weight: 500;
+}
+.list-job,
+.list-university {
+    list-style: none;
+    margin: 15px 0 0;
+    padding: 0 0 0 10px;
+}
+.list-item {
+    border: 1px solid #000;
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 10px;
+    max-width: 300px;
+    border-radius: 7px;
+    line-height: 20px;
+}
+.list-item span {
+    font-weight: 500;
+    margin-left: 5px;
+
+}
+.prev {
+    display: block;
+    max-width: 200px;
+    margin: 30px auto 0;
+    cursor: pointer;
+    background-color: green;
+    color: #fff;
+    padding: 5px;
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 5px;
+}

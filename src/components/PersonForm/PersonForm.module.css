@@ -1,0 +1,38 @@
+.main-form {
+    width: 300px;
+    margin: 50px auto;
+    padding: 15px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #B5B4B5;
+
+}
+label {
+    display: block;
+    color: #000;
+}
+input {
+    display: inline-block;
+    padding: 5px 5px;
+    width: 80%;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    margin: 5px 0 15px;
+}
+.main-btn {
+    display: block;
+    width: 150px;
+    margin: 30px auto 0;
+    cursor: pointer;
+    background-color: green;
+    color: #fff;
+}
+.title {
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 40px;
+
+}
